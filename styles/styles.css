@@ -1,0 +1,28 @@
+
+nav {
+    background-color: steeblue;
+    padding: 10px;
+}
+
+nav a {
+    background-color: lightblue;
+    color: blue;
+    display: Block;
+    padding: 20px;
+}
+
+hi {
+    color: steelblue;
+}
+
+img {
+    width: 150px;
+    height: auto;
+    border: 1px solid steelblue;
+    padding: 2px;
+    box-shadow: 0 0 30px gray;
+}
+
+p {
+    padding: 10px;
+}
