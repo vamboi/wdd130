@@ -1,0 +1,56 @@
+body {
+    font-family: var(--nav-hover-background-color);
+    max-width: 960px;
+    padding: 20px;
+
+}
+:root{
+    --primary-color: #66FF00;
+    --secondary-color: #FF0800;
+    --accent1-color: #79443B;
+    --accent2-color: #EDC9AF;
+
+    --heading-font: '_', serif;
+    --paragraph-font: '_', serif;
+
+    --nav-background-color: #BEBFC5;
+    --nav-link-color: #696969;
+    --nav-hovor-ling-color: #00FFFF;
+    --nav-hover-background-color: #007BA7;
+}
+h1, h2, h3 h4, h5, h6{
+    font-family: var(--accent1-color);
+    color:var(--primary-color);
+}
+
+header{
+    padding:20px;
+    background-color: var(--accent1-color);
+
+}
+
+p{
+    padding:20px;
+}
+nav{
+    background-color: var(--nav-background-color);
+    font-size:1.2rem;
+    display:flex;
+}
+
+nav a{
+    display:block;
+    color: var(--nav-link-color);
+    text-decoration: none;
+    padding: 1rem;
+
+}
+
+nav a:link, nav a:visited{
+    color: var(--nav-link-color);
+
+}
+nav a:hover {
+    color: var(--nav-hovor-ling-color)
+    background-color: var(var(--nav-hover-background-color))
+}
