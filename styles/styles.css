@@ -1,17 +1,17 @@
 
 nav {
-    background-color: steeblue;
+    background-color: steelblue; 
     padding: 10px;
 }
 
 nav a {
     background-color: lightblue;
     color: blue;
-    display: Block;
+    display: block; 
     padding: 20px;
 }
 
-hi {
+h1 { 
     color: steelblue;
 }
 
