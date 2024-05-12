@@ -1,17 +1,23 @@
 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 nav {
-    background-color: steelblue; 
+    background-color: steelblue;
     padding: 10px;
 }
 
 nav a {
     background-color: lightblue;
     color: blue;
-    display: block; 
+    display: block;
     padding: 20px;
 }
 
-h1 { 
+h1 {
     color: steelblue;
 }
 
@@ -25,4 +31,28 @@ img {
 
 p {
     padding: 10px;
+}
+
+/* Corrected Selector */
+.box {
+    margin: 1rem;
+    border: 1px solid rgba(0,0,0,.1);
+    padding: 1rem;
+    background-color: #add;
+    color: #000;
+}
+
+aside {
+    width: 30px; /* Added 'px' unit */
+    text-align: center;
+}
+
+main img {
+    float: right;
+}
+
+aside h2 {
+    position: absolute;
+    top: 47px;
+    left: 150px;
 }
