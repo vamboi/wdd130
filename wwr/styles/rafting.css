@@ -3,7 +3,7 @@
 /* Import Google Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
-/* Define CSS variables */
+
 :root {
     --primary-color: #0059ff;
     --secondary-color: #ff7700;
@@ -11,32 +11,32 @@
     --text-color: #333333;
 }
 
-/* Global Reset */
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-/* Body Styles */
+
 body {
     font-family: 'Roboto', sans-serif;
     color: var(--text-color);
     background-color: var(--background-color);
-    max-width: 1200px; /* Limit entire width of the page */
-    margin: 0 auto; /* Center align */
+    max-width: 1200px; 
+    margin: 0 auto; 
 }
 
-/* Headings and Paragraphs */
+
 h1, h2, h3, h4, h5, h6 {
-    color: var(--primary-color); /* Primary color for headings */
+    color: var(--primary-color); 
 }
 
 p {
     color: var(--text-color);
 }
 
-/* Navigation Styles */
+
 nav {
     background-color: var(--primary-color);
     padding: 10px;
@@ -45,26 +45,26 @@ nav {
 }
 
 nav a {
-    color: #fff; /* White color for navigation links */
+    color: #fff; 
     padding: 10px 20px;
     text-decoration: none;
 }
 
-/* Social Media Links */
+
 .social-media a {
     text-decoration: none;
 }
 
-/* Hero Container */
+
 .hero {
     position: relative;
-    width: 100%; /* Relative width */
+    width: 100%; 
 }
 
 .hero img {
-    display: block; /* Make image block level */
-    width: 100%; /* Fill the width of container */
-    height: auto; /* Maintain aspect ratio */
+    display: block; 
+    width: 100%; 
+    height: auto; 
 }
 
 .hero-content {
@@ -72,12 +72,12 @@ nav a {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    background-color: rgba(255, 255, 255, 0.8); /* Background color with opacity */
+    background-color: rgba(255, 255, 255, 0.8); 
     padding: 20px;
 }
 
 .hero-content h1 {
-    color: var(--secondary-color); /* Secondary color for heading */
+    color: var(--secondary-color); 
 }
 
 .hero-content article {
@@ -88,6 +88,6 @@ nav a {
 }
 
 .hero-content article img {
-    float: right; /* Float image to the right */
+    float: right; /
     margin-left: 20px;
 }
