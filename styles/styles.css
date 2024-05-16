@@ -5,6 +5,40 @@
     box-sizing: border-box;
 }
 
+/* Corrected Selector */
+.box {
+    margin: 1rem;
+    padding: 1rem;
+    border: 1px solid #ccc;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+aside {
+    
+    margin: 1rem;  
+    padding: 1rem; 
+    border: 1px solid #ccc; 
+    background-color: #f9f9f9; 
+    color: #333; 
+}
+
+.profile-img {
+    float: right;
+    margin: 1rem;
+}
+
+.overlay-heading {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding: 5px;
+}
+
+  
+
 nav {
     background-color: steelblue;
     padding: 10px;
@@ -34,19 +68,8 @@ p {
     padding: 10px;
 }
 
-/* Corrected Selector */
-.box {
-    margin: 1rem;
-    border: 1px solid rgba(0,0,0,.1);
-    padding: 1rem;
-    background-color: #add;
-    color: #000;
-}
 
-aside {
-    width: 30px; /* Added 'px' unit */
-    text-align: center;
-}
+
 
 main img {
     float: right;
