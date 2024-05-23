@@ -20,8 +20,10 @@
 
 
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'arial', sans-serif;
+  padding: 0;
   color: var(--text-color);
+  line-height: 1.6;
   background-color: var(--background-color);
   max-width: 1200px;
   margin: 0 auto;
@@ -43,7 +45,15 @@ p {
 
 header {
   display: grid;
-  grid-template-columns: 150px auto;
+  grid-template-columns: auto 1fr auto;
+  align-items: center;
+  background: #333;
+  color: #fff;
+  padding: 1rem;
+}
+
+.logo{
+  max-height: 60px;
 }
 header img {
   width: 100%;
@@ -52,16 +62,24 @@ nav {
   background-color: var(--primary-color);
   padding: 10px;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
   align-self: center;
 }
 
 nav a {
   color: #fff;
-  padding: 1em;
+  padding: 0.5rem;
   text-decoration: none;
+  display:block
 }
 
+nav a:hover{
+  background: #575757;
+}
+
+main {
+  padding: 1rem;
+}
 
 .hero {
   position: relative;
@@ -102,9 +120,8 @@ nav a {
 .header {
   display: grid;
   grid-template-columns: auto 1fr;
-  /* Logo takes auto width, rest takes remaining space */
   align-items: center;
-  /* Vertically center items */
+
 }
 
 .header nav {
@@ -114,6 +131,7 @@ nav a {
 }
 
 .history {
+  margin-bottom: 2rem;
   padding: 20px;
   background-color: #f9f9f9;
   border-radius: 10px;
@@ -135,10 +153,8 @@ nav a {
 
 .adventures {
   display: grid;
-  grid-template-columns: repeat(5, 1fr);
-  /* Adjust as needed */
-  gap: 10px;
-  /* Gap between adventure images */
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 1rem;
 }
 
 
@@ -168,8 +184,11 @@ nav a {
 footer {
   display: flex;
   justify-content: space-between;
-  background-color: #3e3e3e;
+  background-color: #ff7700;
+  color:#fff;
+  text-align: center;
   align-items: center;
+  padding: 1rem;
   /* Align social icons to the right */
 }
 footer p {
@@ -184,5 +203,15 @@ footer p {
 }
 .sociallinks a {
   text-decoration: none;
+}
+
+footer.social{
+  display: flex;
+  justify-content: flex-end;
+  gap: 1rem;
+}
+
+footer.social a img{
+  max-height: 30px;
 }
 
