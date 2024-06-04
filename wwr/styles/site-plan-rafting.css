@@ -1,39 +1,41 @@
+/* Root variables */
 :root {
     --primary-color: #66FF00;
     --secondary-color: #FF0800;
     --accent1-color: #79443B;
     --accent2-color: #EDC9AF;
-
-    --heading-font: 'YourPreferredFontHere', serif; 
-    --paragraph-font: 'AnotherFont', serif; 
-
+    --heading-font: 'YourPreferredFontHere', serif;
+    --paragraph-font: 'AnotherFont', serif;
     --nav-background-color: #BEBFC5;
     --nav-link-color: #696969;
-    --nav-hover-link-color: #00FFFF; 
+    --nav-hover-link-color: #00FFFF;
     --nav-hover-background-color: #007BA7;
 }
 
+/* Body styles */
 body {
-    font-family: var(--nav-hover-background-color); 
     max-width: 960px;
     padding: 20px;
 }
 
+/* Heading styles */
 h1, h2, h3, h4, h5, h6 {
-    font-family: var(--heading-font); 
     color: var(--primary-color);
 }
 
+/* Header styles */
 header {
     padding: 20px;
     background-color: #007BA7;
     position: relative;
 }
 
+/* Paragraph styles */
 p {
     padding: 20px;
 }
 
+/* Navigation styles */
 nav {
     background-color: var(--nav-background-color);
     font-size: 1.2rem;
@@ -56,8 +58,8 @@ nav a:hover {
     background-color: var(--nav-hover-background-color);
 }
 
-footer{
+/* Footer styles */
+footer {
     box-sizing: content-box;
     background-color: #007BA7;
-
 }
