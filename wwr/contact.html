@@ -1,95 +1,79 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact Us - White Water Rafting</title>
-    <meta name="description" content="">
-    <meta name="author" content="Elijah Vamboi">
     <link rel="stylesheet" href="styles/rafting.css">
+    <title>Contact Us</title>
 </head>
-
 <body>
+    <!-- Common Header -->
     <header>
-        <img src="images/logo.png" alt="Rafting Company Logo">
-        <nav>
-            <a href="index.html">Home</a>
-            <a href="about.html">About Us</a>
-            <a href="trips.html">Trips</a>
-            <a href="contact.html">Contact</a>
-        </nav>
+        <h1>Rafting Adventures</h1>
     </header>
 
+    <!-- Navigation -->
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Main Content -->
     <main>
-        <section id="company-info">
-            <h2>Contact Us</h2>
-            <p>Address: 12 Grove Street, Reetown</p>
-            <p>Phone: (232) 78111718</p>
-            <p>Email: elijah.vamboi2000@example.com</p>
-            <div id="map">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3153.086980734946!2d-122.41941548468154!3d37.77492927975913!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8085814d8c1b7e5d%3A0x39cbf8b6e61a9b4d!2s123%20River%20Rd%2C%20San%20Francisco%2C%20CA%2094133%2C%20USA!5e0!3m2!1sen!2sus!4v1629838426689!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        <!-- Employee Profiles Section -->
+        <section class="employee-profiles">
+            <h2>Meet Our Team</h2>
+            <div class="profile">
+                <img src="images/employee1.jpg" alt="John Doe">
+                <figcaption>John Doe - Guide</figcaption>
+            </div>
+            <div class="profile">
+                <img src="images/employee2.jpg" alt="Jane Smith">
+                <figcaption>Jane Smith - Coordinator</figcaption>
+            </div>
+            <div class="profile">
+                <img src="images/employee3.jpg" alt="Emily Johnson">
+                <figcaption>Emily Johnson - Safety Expert</figcaption>
             </div>
         </section>
-        <section id="team">
-            <h2>Meet Our Team</h2>
-            <figure class="employee-profile">
-                <img src="images/employee1.jpg" alt="Employee 1">
-                <figcaption>Peter During, Guide</figcaption>
-            </figure>
-            <figure class="employee-profile">
-                <img src="images/employee2.jpg" alt="Employee 2">
-                <figcaption>Elizabeth Taylor Smith, Customer Service</figcaption>
-            </figure>
-            <figure class="employee-profile">
-                <img src="images/employee3.jpg" alt="Employee 3">
-                <figcaption>Ryan Cooper, Safety Instructor</figcaption>
-            </figure>
-        </section>
-        <section id="contact-form">
-            <h2>Get in Touch</h2>
-            <form action="submit_form.php" method="post">
+
+        <!-- User Comment Form Section -->
+        <section class="user-comments">
+            <h2>Contact Us</h2>
+            <form action="submit_comment.php" method="post">
                 <label for="name">Name:</label>
                 <input type="text" id="name" name="name" required>
-                
+
                 <label for="email">Email:</label>
                 <input type="email" id="email" name="email" required>
-                
-                <p>Purpose of Message:</p>
-                <input type="radio" id="general" name="purpose" value="general" required>
-                <label for="general">General Inquiry</label><br>
-                
-                <input type="radio" id="reservation" name="purpose" value="reservation" required>
-                <label for="reservation">Reservation Question</label><br>
-                
-                <input type="radio" id="suggestion" name="purpose" value="suggestion" required>
-                <label for="suggestion">Website Suggestion</label><br>
-                
-                <label for="message">Message:</label>
-                <textarea id="message" name="message" rows="4" required></textarea>
-                
-                <input type="checkbox" id="subscribe" name="subscribe">
-                <label for="subscribe">Please subscribe me to the monthly newsletter</label><br>
-                
-                <button type="submit">Send Message</button>
+
+                <label for="comments">Comments:</label>
+                <textarea id="comments" name="comments" rows="5" required></textarea>
+
+                <input type="submit" value="Submit">
             </form>
         </section>
     </main>
 
+    <!-- Footer -->
     <footer>
         <p>&copy; 2024 White Water Rafting - Elijah Vamboi</p>
         <nav class="sociallinks">
             <a href="https://facebook.com" target="_blank">
                 <img src="images/logofacebook1.webp" alt="Facebook">
             </a>
-            <a href="https://twitter.com" target="_blank">
+            <a href="https://twitter.png" target="_blank">
                 <img src="images/twitter1.webp" alt="Twitter">
             </a>
             <a href="https://instagram.com" target="_blank">
                 <img src="images/instagram2.webp" alt="Instagram">
             </a>
         </nav>
+        <p>&copy; 2024 Rafting Adventures. All rights reserved.</p>
     </footer>
 </body>
-
 </html>
